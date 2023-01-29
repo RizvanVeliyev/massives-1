@@ -96,9 +96,9 @@ namespace massives_1
 			//	}
 			//}
 			//int temp = 0;
-			//for(int i = 0; i < b.Length-1; i++)
+			//for (int i = 0; i < b.Length - 1; i++)
 			//{
-			//	for(int j = i; j < b.Length; j++)
+			//	for (int j = i; j < b.Length; j++)
 			//	{
 			//		if (b[i] < b[j])
 			//		{
@@ -109,7 +109,7 @@ namespace massives_1
 			//	}
 			//}
 			//Console.WriteLine();
-			//foreach(var item in b)
+			//foreach (var item in b)
 			//{
 			//	Console.Write($"{item} ");
 			//}
@@ -157,24 +157,24 @@ namespace massives_1
 
 			#endregion
 			#region task6
-			//Console.Write("massivin elemeentleri sayi=");
-			//int n = int.Parse(Console.ReadLine());
-			//int[] y = new int[n];
-			//int[] x = new int[n];
+			Console.Write("massivin elemeentleri sayi=");
+			int n = int.Parse(Console.ReadLine());
+			int[] y = new int[n];
+			int[] x = new int[n];
 
 
 
 
-			//for (int i = 0; i < y.Length; i++)
-			//{
-			//	Console.Write($"a[{i}]=");
-			//	y[i] = int.Parse(Console.ReadLine());
-			//}
-			//for (int i = 0; i < y.Length; i++)
-			//{
-			//	x[i] = y[i] * y[i];
-			//	Console.Write($"{x[i]}  ");
-			//}
+			for (int i = 0; i < y.Length; i++)
+			{
+				Console.Write($"a[{i}]=");
+				y[i] = int.Parse(Console.ReadLine());
+			}
+			for (int i = 0; i < y.Length; i++)
+			{
+				x[i] = y[i] * y[i];
+				Console.Write($"{x[i]}  ");
+			}
 			#endregion
 			#region task7
 			//Console.Write("massivin elemeentleri sayi=");
